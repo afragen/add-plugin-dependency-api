@@ -117,4 +117,4 @@ if ( ! class_exists( 'Plugin_Dependency_API' ) ) {
 	}
 }
 
-( new REST_Endpoints() )->load_hooks();
+( new Plugin_Dependency_API() )->load_hooks();
