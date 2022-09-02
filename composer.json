@@ -1,5 +1,5 @@
 {
-  "name": "afragen/add-plugin-dependencies-api",
+  "name": "afragen/add-plugin-dependency-api",
   "description": "Library that helps WordPress plugin dependency management.",
   "version": "0.2.0",
   "type": "library",
