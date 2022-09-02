@@ -1,6 +1,6 @@
 # Add Plugin Dependency API
 
-* Contributors: [Andy Fragen](https://github.com/afragen), [contributors](https://github.com/afragen/wp-dependency-installer/graphs/contributors)
+* Contributors: [Andy Fragen](https://github.com/afragen), [contributors](https://github.com/afragen/add-plugin-dependency-api/graphs/contributors)
 * Tags: plugin dependency
 * Requires at least: 6.0
 * Requires PHP: 5.6
