@@ -50,7 +50,7 @@ if ( ! class_exists( 'Plugin_Dependency_API' ) ) {
 				$rest_endpoints = apply_filters( 'plugin_dependency_endpoints', [] );
 
 				foreach ( $rest_endpoints as $endpoint ) {
-					$url      = add_query_arg( 'slug', $args->slug, trailingslashit( $endpoint ) );
+					$url      = add_query_arg( 'slug', $args->slug, untrailingslashit( $endpoint ) );
 					$response = wp_remote_get( $url );
 
 					// Convert response to associative array.
