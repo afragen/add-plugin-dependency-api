@@ -65,7 +65,7 @@ if ( ! class_exists( 'Plugin_Dependency_API' ) ) {
 					// Convert response to associative array.
 					$response = json_decode( wp_remote_retrieve_body( $response ), true );
 					if ( null === $response || isset( $response['error'] ) || isset( $response['code'] ) ) {
-						$message  = isset( $response['error'] ) ? $response['error'] : null;
+						$message  = isset( $response['error'] ) ? $response['error'] : '';
 						$response = new \WP_Error( 'error', 'Error retrieving plugin data.', $message );
 					}
 					if ( ! is_wp_error( $response ) ) {
